@@ -8795,6 +8795,11 @@ button.close {
   position: relative;
 }
 
+/* line 7, ../sass/partials/_base.scss */
+.result {
+  font-weight: bold;
+}
+
 /* line 1, ../sass/partials/_buttons.scss */
 .btn-submit {
   margin: 20px 0;
