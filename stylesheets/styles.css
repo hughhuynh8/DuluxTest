@@ -8789,6 +8789,23 @@ button.close {
   }
 }
 /* line 1, ../sass/partials/_base.scss */
-.container .jumbotron {
+.jumbotron-component {
+  text-align: center;
   min-height: 400px;
+  position: relative;
+}
+
+/* line 1, ../sass/partials/_buttons.scss */
+.btn-submit {
+  margin: 20px 0;
+}
+
+/* line 1, ../sass/partials/_images.scss */
+.loading-img {
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
 }
