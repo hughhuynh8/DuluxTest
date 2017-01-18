@@ -5,16 +5,13 @@
 	<title>Dulux test</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/dulux.js"></script>
+
 </head>
 <body>
-	<button id="send">click me</button>
-
-	<!-- Loading image -->
-	<div id="loadingDiv"><img src="images/loading.gif" alt="loading image"></div>
-
+	<div><p>The current date is: <span id="resultsDiv"></span></p></div>
+	
 	<script>
-		dulux.init();
-		dulux.getData();
+		dulux.showData();
 	</script>
 </body>
 </html>
